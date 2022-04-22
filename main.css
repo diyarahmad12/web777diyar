@@ -207,7 +207,7 @@ img{
     flex: 30%;
     align-self: flex-start;
     font-size: 48px;
-    color: black;
+    color: red;
 }
 .service-content{
     padding-left: 20px;
@@ -219,7 +219,7 @@ img{
     margin-left: 0;
     margin-right: 0;
     background: var(--yellow);
-    color: black;
+    color: red;
 }
 @media(min-width: 992px){
     .services-container{
@@ -255,7 +255,7 @@ img{
     margin: 18px 0 0 0;
     background: var(--dark);
     color: yellow;
-    border: 1px solid #fff;
+    border: 1px solid yellow;
 }
 .book-form label, .book-form input{
     width: 100%;
