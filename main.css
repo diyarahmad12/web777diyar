@@ -56,7 +56,7 @@ img{
 .header{
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url("images/banner-img.jpg") center/cover no-repeat;
     min-height: 100vh;
-    color: #fff;
+    color: yellow;
     padding: 25px;
     display: flex;
     flex-direction: column;
@@ -100,7 +100,7 @@ img{
     background: transparent;
     padding: 13px 20px;
     background: rgba(0, 0, 0, 0.3);
-    color: #fff;
+    color: yellow;
     cursor: pointer;
     transition: var(--transition);
 }
@@ -197,6 +197,7 @@ img{
 /* service */
 .services{
     margin: 40px 0;
+
 }
 .service{
     display: flex;
@@ -206,7 +207,7 @@ img{
     flex: 30%;
     align-self: flex-start;
     font-size: 48px;
-    color: #252525;
+    color: black;
 }
 .service-content{
     padding-left: 20px;
@@ -218,7 +219,7 @@ img{
     margin-left: 0;
     margin-right: 0;
     background: var(--yellow);
-    color: #fff;
+    color: black;
 }
 @media(min-width: 992px){
     .services-container{
@@ -238,8 +239,8 @@ img{
 
 /* booking form */
 .book{
-    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("images/banner-img.jpeg") center/cover no-repeat;
-    color: #fff;
+    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("images/banner-img.jpg") center/cover no-repeat;
+    color: yellow;
     padding: 40px 60px;
 }
 .book-form{
@@ -253,7 +254,7 @@ img{
 .book-form input[type = "submit"]{
     margin: 18px 0 0 0;
     background: var(--dark);
-    color: #fff;
+    color: yellow;
     border: 1px solid #fff;
 }
 .book-form label, .book-form input{
@@ -311,7 +312,7 @@ img{
     margin: 45px 0;
     padding-bottom: 25px;
     background: var(--dark);
-    color: #fff;
+    color: yellow;
 }
 .room-text{
     padding: 5px 20px;
@@ -380,47 +381,9 @@ img{
     }
 }
 
-/* customers */
+/* Find */
 
-.customers{
-    margin-top: 40px;
-    padding: 40px 0;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/customer-banner.jpg") center/cover no-repeat fixed;
-}
-.customer{
-    background: #fff;
-    padding: 35px;
-    text-align: center;
-    margin: 24px 0;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.75);
-    cursor: pointer;
-    transition: var(--transition);
-}
-.rating{
-    margin: 10px 0;
-    color: var(--yellow);
-}
-.customer h3{
-    font-size: 25px;
-}
-.customer p{
-    opacity: 0.7;
-    line-height: 1.8;
-    width: 60%;
-    margin: 0 auto;
-}
-.customer img{
-    width: 170px;
-    height: 170px;
-    border-radius: 50%;
-    margin: 25px auto;
-}
-.customer span{
-    font-weight: 700;
-    opacity: 0.7;
-}
-.customer:hover{
-    transform: translateY(-18px);
+
 }
 @media(min-width: 992px){
     .customers-container{
@@ -520,3 +483,4 @@ img{
     left: 0;
     z-index: 5;
 }
+
